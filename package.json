@@ -13,12 +13,11 @@
     "prepublishOnly" : "npm test && npm run lint",
     "preversion" : "npm run lint",
     "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags",
-
+    "postversion" : "git push && git push --tags"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/num3A/todo.git"
+    "url": "git+https://github.com/num3a/speech-lib.git"
   },
   "keywords": ["Hello", "Greeter"],
   "author": "Captain Dev",
